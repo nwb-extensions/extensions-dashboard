@@ -33,8 +33,7 @@ DEFAULT_PER_PAGE = 100
 
 # Set of extensions with known issues when installing from source
 INACTIVE_EXTENSIONS = {
-    "ndx-miniscope",  # Tests cannot run from pypi installation due to ImportError: attempted relative import beyond top-level package
-    "ndx-simulation-output",  # Tests cannot run from pypi installation due to ImportError: cannot import name 'call_docval_func' from 'hdmf.utils'
+    "ndx-simulation-output",  # Not compatible with latest HDMF because of ImportError: cannot import name 'call_docval_func' from 'hdmf.utils'
     "ndx-ecog",  # Requires Python <3.9 because of ImportError: cannot import name 'Iterable' from 'collections'
     "ndx-icephys-meta",  # Deprecated, use NWB core
     "ndx-nirs",  # Requires Python <3.11,>=3.7
