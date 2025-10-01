@@ -38,6 +38,7 @@ INACTIVE_EXTENSIONS = {
     "ndx-icephys-meta",  # Deprecated, use NWB core
     "ndx-nirs",  # Requires Python <3.11,>=3.7
     "ndx-extract",  # Cannot install from source on Linux due to https://github.com/catalystneuro/ndx-extract/issues/5
+    "ndx-photometry",  # Deprecated, use ndx-fiber-photometry
     "ndx-acquisition-module",  # Not compatible with latest HDMF because of requirement hdmf<4
     "ndx-odor-metadata",  # Not compatible with latest HDMF because of requirement hdmf<4
     "ndx-whisk",  # Not compatible with latest HDMF because of requirement hdmf<4
