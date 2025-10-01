@@ -38,8 +38,14 @@ INACTIVE_EXTENSIONS = {
     "ndx-icephys-meta",  # Deprecated, use NWB core
     "ndx-nirs",  # Requires Python <3.11,>=3.7
     "ndx-extract",  # Cannot install from source on Linux due to https://github.com/catalystneuro/ndx-extract/issues/5
+    "ndx-acquisition-module",  # Not compatible with latest HDMF because of requirement hdmf<4
+    "ndx-odor-metadata",  # Not compatible with latest HDMF because of requirement hdmf<4
+    "ndx-whisk",  # Not compatible with latest HDMF because of requirement hdmf<4
     "ndx-photostim",  # One test fails due to AssertionError: ValueError not raised. The test is inconsistent with the extension code
+    "ndx-ecg",  # Not compatible with latest HDMF because of requirement hdmf<4
     "ndx-multichannel-volume",  # Possibly broken tests: ModuleNotFoundError: No module named 'MultiChannelVol'
+    "ndx-depth-moseq",  # Not compatible with latest HDMF because of requirement hdmf<4
+    "ndx-hed",  # Not yet resolved ModuleNotFoundError: No module named 'ndx_events'
     "ndx-microscopy",  # Not yet resolved ValueError: 'DeviceModel' - cannot overwrite existing specification
 }
 
