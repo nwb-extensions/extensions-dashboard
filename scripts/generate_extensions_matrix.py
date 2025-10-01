@@ -42,6 +42,7 @@ INACTIVE_EXTENSIONS = {
     "ndx-acquisition-module",  # Not compatible with latest HDMF because of requirement hdmf<4
     "ndx-odor-metadata",  # Not compatible with latest HDMF because of requirement hdmf<4
     "ndx-whisk",  # Not compatible with latest HDMF because of requirement hdmf<4
+    "ndx-franklab-novela",  # Not compatible with latest PyNWB/HDMF because of requirement pynwb<3.1
     "ndx-photostim",  # One test fails due to AssertionError: ValueError not raised. The test is inconsistent with the extension code
     "ndx-ecg",  # Not compatible with latest HDMF because of requirement hdmf<4
     "ndx-multichannel-volume",  # Possibly broken tests: ModuleNotFoundError: No module named 'MultiChannelVol'
@@ -66,11 +67,6 @@ FALLBACK_EXTENSIONS = [
         "name": "ndx-sound",
         "repository": "https://github.com/catalystneuro/ndx-sound/",
         "pypi": "https://pypi.org/project/ndx-sound/"
-    },
-    {
-        "name": "ndx-franklab-novela",
-        "repository": "https://github.com/lorenfranklab/ndx-franklab-novela",
-        "pypi": "https://pypi.org/project/ndx-franklab-novela/"
     },
     {
         "name": "ndx-ophys-devices",
