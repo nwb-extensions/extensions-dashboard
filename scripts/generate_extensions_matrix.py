@@ -49,10 +49,37 @@ FALLBACK_EXTENSIONS = [
     {
         "name": "ndx-fret",
         "repository": "https://github.com/catalystneuro/ndx-fret",
+        "pypi": "https://pypi.org/project/ndx-fret/"
     },
     {
         "name": "ndx-events",
         "repository": "https://github.com/rly/ndx-events",
+        "pypi": "https://pypi.org/project/ndx-events/"
+    },
+    {
+        "name": "ndx-sound",
+        "repository": "https://github.com/catalystneuro/ndx-sound/",
+        "pypi": "https://pypi.org/project/ndx-sound/"
+    },
+    {
+        "name": "ndx-franklab-novela",
+        "repository": "https://github.com/lorenfranklab/ndx-franklab-novela",
+        "pypi": "https://pypi.org/project/ndx-franklab-novela/"
+    },
+    {
+        "name": "ndx-ophys-devices",
+        "repository": "https://github.com/catalystneuro/ndx-ophys-devices",
+        "pypi": "https://pypi.org/project/ndx-ophys-devices/"
+    },
+    {
+        "name": "ndx-pose",
+        "repository": "https://github.com/rly/ndx-pose",
+        "pypi": "https://pypi.org/project/ndx-pose/"
+    },
+    {
+        "name": "ndx-fiber-photometry",
+        "repository": "https://github.com/catalystneuro/ndx-fiber-photometry",
+        "pypi": "https://pypi.org/project/ndx-fiber-photometry/"
     },
 ]
 
